@@ -23,19 +23,23 @@ function App() {
       <main>
         <section className="w-[1200px] h-[825px] mx-auto border border-red-500 custom-bg">
           <div>
-            <h2 className=" font-bebasNeue text-[4.77rem]">
-              Sprzedajemy samochody z europy
-            </h2>
-            <p className=" text-base">
-              Kup komfortowy pojazd, aby każda podróż była wyjątkowym
-              przeżyciem.
-            </p>
-            <button className="w-[157px] h-[47px] bg-customBlue rounded-lg">
-              <p className="font-robotoFlex text-base">Zobacz zdjęcia</p>
-            </button>
-            <button className="w-[157px] h-[47px] border border-customBlue rounded-lg ">
-              <p className="font-robotoFlex text-base ">Zadzwoń do nas</p>
-            </button>
+            <div className=" mb-12">
+              <h2 className=" font-bebasNeue text-[4.77rem] mb-8 leading-[1.1]">
+                Sprzedajemy samochody <br /> z europy
+              </h2>
+              <p className=" text-base">
+                Kup komfortowy pojazd, aby każda podróż <br /> była wyjątkowym
+                przeżyciem.
+              </p>
+            </div>
+            <div>
+              <button className="w-[157px] h-[47px] bg-customBlue rounded-lg mr-6">
+                <p className="font-robotoFlex text-base">Zobacz zdjęcia</p>
+              </button>
+              <button className="w-[157px] h-[47px] border border-customBlue rounded-lg ">
+                <p className="font-robotoFlex text-base ">Zadzwoń do nas</p>
+              </button>
+            </div>
           </div>
         </section>
         <section></section>
