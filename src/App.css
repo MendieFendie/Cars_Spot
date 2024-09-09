@@ -1,0 +1,15 @@
+.custom-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 17.8%;
+  right: 0;
+  bottom: 0;
+  background-image: url("./img/Hero.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.2;
+  width: 66.5rem;
+  heigth: 25.27rem;
+}
