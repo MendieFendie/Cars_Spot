@@ -1,14 +1,33 @@
-.custom-bg::before {
+.container {
+  width: 1200px;
+}
+
+.custom-bg-cars::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: 17.8%;
+  width: 66.5rem;
+  top: 27%;
+  left: 25%;
   right: 0;
   bottom: 0;
   background-image: url("./img/Hero.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
+.custom-bg-lines::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 48%;
+  right: 0;
+  bottom: 28%;
+  background-image: url("./img/Subtract.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 66.5rem;
-  heigth: 25.27rem;
+  width: 41.75rem;
+  z-index: -2;
 }

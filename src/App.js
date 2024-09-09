@@ -4,9 +4,9 @@ import logo from "./icons/CTA.svg";
 
 function App() {
   return (
-    <div className="bg-customGray max-w-[1440px] relative">
+    <div className="bg-customGray max-w-[1440px] relative  custom-bg-lines z-10">
       <header className="w-full h-[79px] flex items-center border border-red-500">
-        <div className="w-[1200px] mx-auto flex justify-between items-center py-4 h-[47px]">
+        <div className="container mx-auto flex justify-between items-center py-4 h-[47px]">
           <div className="flex items-center">
             <img className="w-26 h-7" src={stroke} alt="" />
             <img className="w-115 h-7.1" src={logo} alt="" />
@@ -20,9 +20,9 @@ function App() {
           </button>
         </div>
       </header>
-      <main>
-        <section className="w-[1200px] h-[825px] mx-auto border border-red-500 custom-bg">
-          <div>
+      <main className=" relative  custom-bg-cars">
+        <section className="container h-[825px] mx-auto border border-red-500">
+          <div className="pt-[120px] pl-[120px] pr-[120px]">
             <div className=" mb-12">
               <h2 className=" font-bebasNeue text-[4.77rem] mb-8 leading-[1.1]">
                 Sprzedajemy samochody <br /> z europy
@@ -42,7 +42,16 @@ function App() {
             </div>
           </div>
         </section>
-        <section></section>
+        <section className="container mx-auto h-[207p] pt-20 ">
+          <div>
+            <h2>Prezentacja firmy</h2>
+            <p>Zobacz naszą Galerię zdjęć</p>
+          </div>
+          <div>
+            <p>Samochody osobowe</p>
+            <p>Samochody dostawcze</p>
+          </div>
+        </section>
         <section></section>
       </main>
 
