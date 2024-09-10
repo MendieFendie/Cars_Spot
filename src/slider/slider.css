@@ -1,0 +1,13 @@
+.slick-dots li button:before {
+  color: #0147ff;
+}
+
+.slick-dots li.slick-active button:before {
+  color: blue;
+}
+
+.slider-img {
+  width: 96%;
+  height: auto;
+  margin: 0 64px;
+}
