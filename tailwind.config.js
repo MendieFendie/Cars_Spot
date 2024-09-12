@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         customGray: "#F7F7F7",
         customBlue: "#0147FF",
+        customDark: "#282828",
       },
       fontFamily: {
         robotoFlex: ["Roboto Flex", "sans-serif"],
