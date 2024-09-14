@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+Cars Spot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
 
-## Available Scripts
+Cars Spot is a modern web application that showcases a gallery of cars available for sale, primarily focusing on vehicles imported from Europe. This project features a responsive design optimized for mobile, tablet, and desktop screens, ensuring a smooth user experience across devices. The application also includes interactive sections, such as sliders and collapsible text sections, powered by React.
 
-In the project directory, you can run:
+Features
 
-### `npm start`
+Responsive Design: Optimized for mobile, tablet, and desktop screens.
+Interactive Slider: Displays various cars with smooth transitions.
+Expandable Sections: Users can expand or collapse sections for additional information.
+Custom Backgrounds: Tailored background images that adapt to different screen sizes.
+Contact CTA: Includes an easy-to-access "Call Us" button.
+Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React.js: JavaScript library for building user interfaces.
+Tailwind CSS: Utility-first CSS framework for styling.
+Slick Carousel: A carousel/slider component used to display car images.
+Custom CSS: Additional styles to enhance layout and visuals.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Usage
 
-### `npm test`
+On mobile devices, the navigation menu and content sections are stacked for better readability.
+Background images and buttons adjust based on screen width, ensuring a smooth user experience.
+Users can expand sections with additional details using the Rozwiń/Zwiń buttons.
+The "Call Us" button allows users to quickly access contact information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Customization
 
-### `npm run build`
+Background Images
+To change background images in the CSS:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Modify the background-image property for the .custom-bg-cars and .custom-bg-lines classes in App.css.
+Media Queries
+Tailwind's responsive classes and custom CSS media queries are used for adaptive design. You can adjust the breakpoints in the following sections of the code:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Mobile: (min-width: 375px) and (max-width: 639px)
+Tablet: (min-width: 640px) and (max-width: 1023px)
+Desktop: (min-width: 1024px)
+Tailwind Customizations
+You can further tweak the styles or add new components by modifying the tailwind.config.js file.
