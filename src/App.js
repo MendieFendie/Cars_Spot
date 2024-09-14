@@ -58,8 +58,8 @@ function App() {
               </p>
             </div>
             <div className="mb:flex mb:justify-center tb:px-2 ">
-              <button className="w-[157px] h-[47px] bg-customBlue rounded-lg mr-6 mb:w-[95px] mb:h-[30px]">
-                <p className="font-robotoFlex text-base mb:text-xs">Zobacz zdjęcia</p>
+              <button  className="w-[157px] h-[47px] bg-customBlue rounded-lg mr-6 mb:w-[95px] mb:h-[30px]">
+                <a href="#section1" className="font-robotoFlex text-base mb:text-xs">Zobacz zdjęcia</a>
               </button>
               <button className="w-[157px] h-[47px] border border-customBlue rounded-lg mb:w-[95px] mb:h-[30px]">
                 <p className="font-robotoFlex text-base mb:text-xs">Zadzwoń do nas</p>
@@ -83,7 +83,7 @@ function App() {
             <p className="font-robotoFlex text-base">Samochody dostawcze</p>
           </div>
         </section>
-        <section className="lg:w-full mx-auto lg:pl-[88px] lg:pr-4 lg:pt-20 lg:pb-[152px] mb:mb-[25px]">
+        <section id="section1" className="lg:w-full mx-auto lg:pl-[88px] lg:pr-4 lg:pt-20 lg:pb-[152px] mb:mb-[25px]">
           <SimpleSlider />
         </section>
         <section className="bg-customDark text-white border-b-2 border-b-white">
