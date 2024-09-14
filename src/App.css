@@ -2,7 +2,42 @@
   width: 1200px;
 }
 
-.custom-bg-cars::after {
+
+@media only screen and (min-width: 375px) and (max-width: 639px) {
+  .custom-bg-cars::after {
+    content: "";
+    position: absolute;
+    width: 250px;
+    top: 0;
+    left: 33%;
+    right: 0;
+    bottom: 77%;
+    background-image: url("./img/Hero.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+  }
+  
+  .custom-bg-lines::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    top: 0;
+    left: 45%;
+    right: 0;
+    bottom: 84%;
+    background-image: url("./img/Subtract.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    z-index: -2;
+  }
+}
+
+
+/* .custom-bg-cars::after {
   content: "";
   position: absolute;
   width: 66.5rem;
@@ -30,4 +65,4 @@
   background-position: center;
   width: 41.75rem;
   z-index: -2;
-}
+} */

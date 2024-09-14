@@ -21,75 +21,74 @@ function App() {
 
   return (
     <div className="bg-customGray max-w-[1440px] relative custom-bg-lines z-10">
-      <header className="w-full h-[79px] flex items-center ">
-        <div className="container mx-auto flex justify-between items-center py-4 h-[47px]">
+      <header className="w-full lg:h-[79px] mb:h-[70px] flex items-center mb:px-2 ">
+        <div className="container mx-auto flex justify-between lg:items-center mb:items-center lg:py-4">
           <a href="/">
-            <div className="flex items-center">
-              <img className="w-26 h-7" src={stroke} alt="" />
-              <img className="w-115 h-7.1" src={logo} alt="" />
+            <div className="flex items-center  lg:w-[153px] lg:h-[47px]">
+              <img className="mb:w-[25px] mb:h-[25px]  "  src={stroke} alt="" />
+              <img className="mb:w-[75px] mb:h-[30px] " src={logo} alt="" />
             </div>
           </a>
-          <div className="flex">
+          <div className="flex mb:flex-col mb:justify-between mb:text-center ">
             <a href="/">
-              {" "}
-              <p className="font-robotoFlex text-base mr-[24px]">
+              <p className="font-robotoFlex lg:text-base  lg:mr-[24px] mb:text-sm">
                 Galeria zdjęć
               </p>
             </a>
             <a href="/">
               {" "}
-              <p className="font-robotoFlex text-base">FaQ</p>
+              <p className="font-robotoFlex text-base mb:text-sm">FaQ</p>
             </a>
           </div>
-          <button className="w-[157px] h-[47px] bg-customBlue rounded-lg">
-            <p className="font-robotoFlex text-base">Zadzwoń do nas</p>
+          <button className="lg:w-[157px] lg:h-[47px] mb:w-[95px] mb:h-[30px]  bg-customBlue rounded-lg">
+            <p className="font-robotoFlex lg:text-base mb:text-xs">Zadzwoń do nas</p>
           </button>
         </div>
       </header>
       <main className="relative custom-bg-cars">
         <section className="container mx-auto ">
-          <div className="pt-[120px]  pb-[362px]">
-            <div className=" mb-12">
-              <h2 className=" font-bebasNeue text-[4.77rem] mb-8 leading-[1.1] tracking-tight">
+          <div className="lg:pt-[120px]  lg:pb-[362px] mb:pt-[30px] mb:pb-[30px]">
+            <div className="container mb-12 mb:px-4">
+              <h2 className=" font-bebasNeue lg:text-[4.77rem] mb:text-[2rem] mb:mb-[8rem]  mb-8 leading-[1.1] tracking-tight">
                 Sprzedajemy samochody <br /> z europy
               </h2>
-              <p className=" text-base leading-normal">
+              <p className=" text-base leading-normal mb:text-center">
                 Kup komfortowy pojazd, aby każda podróż <br /> była wyjątkowym
                 przeżyciem.
               </p>
             </div>
-            <div>
-              <button className="w-[157px] h-[47px] bg-customBlue rounded-lg mr-6">
-                <p className="font-robotoFlex text-base">Zobacz zdjęcia</p>
+            <div className="mb:flex mb:justify-center">
+              <button className="w-[157px] h-[47px] bg-customBlue rounded-lg mr-6 mb:w-[95px] mb:h-[30px]">
+                <p className="font-robotoFlex text-base mb:text-xs">Zobacz zdjęcia</p>
               </button>
-              <button className="w-[157px] h-[47px] border border-customBlue rounded-lg ">
-                <p className="font-robotoFlex text-base ">Zadzwoń do nas</p>
+              <button className="w-[157px] h-[47px] border border-customBlue rounded-lg mb:w-[95px] mb:h-[30px]">
+                <p className="font-robotoFlex text-base mb:text-xs">Zadzwoń do nas</p>
               </button>
             </div>
           </div>
         </section>
-        <section className="w-[1264px] mx-auto pt-20 ">
+        <section className="lg:w-[1264px] mx-auto lg:pt-20 mb:px-4 ">
           <div className=" mb-6">
-            <h2 className="font-robotoCondensed font-light text-[21.5px] text-customBlue ">
+            <h2 className="font-robotoCondensed font-light lg:text-[21.5px] mb:text-[30px] mb:text-center mb:mb-[10px]  text-customBlue ">
               Prezentacja firmy
             </h2>
-            <p className=" font-bebasNeue text-[40px] leading-tight">
+            <p className=" font-bebasNeue lg:text-[40px] mb:text-[20px] mb:text-center  leading-tight">
               Zobacz naszą Galerię zdjęć
             </p>
           </div>
-          <div className="flex ">
+          <div className="flex mb:text-center mb:mb-[10px]">
             <p className=" text-customBlue font-robotoFlex font-semibold text-base mr-12">
               Samochody osobowe
             </p>
             <p className="font-robotoFlex text-base">Samochody dostawcze</p>
           </div>
         </section>
-        <section className="w-full mx-auto pl-[88px] pr-4 pt-20 pb-[152px]">
+        <section className="lg:w-full mx-auto lg:pl-[88px] lg:pr-4 lg:pt-20 lg:pb-[152px] mb:mb-[25px]">
           <SimpleSlider />
         </section>
         <section className="bg-customDark text-white border-b-2 border-b-white">
-          <div className="mx-auto container flex">
-            <div className="mr-12">
+          <div className="mx-auto container flex mb:flex-col mb:text-center mb:px-4 mb:pt-4">
+            <div className="lg:mr-12 ">
               <h2 className="font-bebasNeue tracking-tight text-[25px] mb-1">
                 Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit
                 nulla commodo.
@@ -121,7 +120,7 @@ function App() {
               </div>
             </div>
 
-            <div className="mb-[88px]">
+            <div className="lg:mb-[88px] mb:mb-[20px]">
               <h2 className="font-bebasNeue tracking-tight text-[25px] mb-1">
                 Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit
                 nulla commodo.
@@ -157,7 +156,7 @@ function App() {
       </main>
 
       <footer className="bg-customDark ">
-        <div className="container flex justify-between mx-auto py-6">
+        <div className="container flex justify-between mx-auto lg:py-6 mb:py-4 mb:justify-between mb:px-4">
           <a href="/">
             <p className=" font-robotoCondensed text-white font-bold">
               Cars Spot

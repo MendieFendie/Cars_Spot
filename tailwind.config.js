@@ -2,6 +2,11 @@ module.exports = {
   mode: "jit",
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    screens: {
+      'mb': {'min':'375px', 'max': '639px'},
+      'tb': {'min':'640px', 'max': '1023px'},
+      'lg': {'min':'1024px', 'max': '1440px'},
+    },
     extend: {
       colors: {
         customGray: "#F7F7F7",
