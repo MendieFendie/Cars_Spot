@@ -30,7 +30,7 @@ function App() {
             </div>
           </a>
           <div className="flex mb:flex-col mb:justify-between mb:text-center ">
-            <a href="/">
+            <a href="#section1">
               <p className="font-robotoFlex lg:text-base  lg:mr-[24px] mb:text-sm tb:mr-[10px]">
                 Galeria zdjęć
               </p>
