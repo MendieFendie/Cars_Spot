@@ -3,6 +3,8 @@
 }
 
 
+
+
 @media only screen and (min-width: 375px) and (max-width: 639px) {
   .custom-bg-cars::after {
     content: "";
@@ -36,33 +38,69 @@
   }
 }
 
-
-/* .custom-bg-cars::after {
-  content: "";
-  position: absolute;
-  width: 66.5rem;
-  top: 0;
-  left: 26%;
-  right: 0;
-  bottom: 47%;
-  background-image: url("./img/Hero.svg");
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: -1;
+@media only screen and (min-width: 640px) and (max-width: 1023px) {
+  .custom-bg-cars::after {
+    content: "";
+    position: absolute;
+    width: 440px;
+    top: 0;
+    left: 33%;
+    right: 0;
+    bottom: 68%;
+    background-image: url("./img/Hero.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+  }
+  
+  .custom-bg-lines::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    top: 0;
+    left: 58%;
+    right: 0;
+    bottom: 80%;
+    background-image: url("./img/Subtract.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    z-index: -2;
+  }
 }
 
-.custom-bg-lines::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 48%;
-  right: 0;
-  bottom: 70%;
-  background-image: url("./img/Subtract.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 41.75rem;
-  z-index: -2;
-} */
+@media only screen and ((min-width: 1024px) and (max-width: 1600px)) {
+  .custom-bg-cars::after {
+    content: "";
+    position: absolute;
+    width: 66.5rem;
+    top: 0;
+    left: 26%;
+    right: 0;
+    bottom: 47%;
+    background-image: url("./img/Hero.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+  }
+  
+  .custom-bg-lines::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 48%;
+    right: 0;
+    bottom: 70%;
+    background-image: url("./img/Subtract.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 41.75rem;
+    z-index: -2;
+  }
+  
+}
+

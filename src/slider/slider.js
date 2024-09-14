@@ -15,8 +15,7 @@ const SimpleSlider = () => {
     slidesToShow: 2.1,
     slidesToScroll: 1,
     centerMode: true,
-    centerPadding: "0",
-    with: 1440,
+    centerPadding: "60px",
     swipeToSlide: true,
   };
 

@@ -21,8 +21,8 @@ function App() {
 
   return (
     <div className="bg-customGray max-w-[1440px] relative custom-bg-lines z-10">
-      <header className="w-full lg:h-[79px] mb:h-[70px] flex items-center mb:px-2 ">
-        <div className="container mx-auto flex justify-between lg:items-center mb:items-center lg:py-4">
+      <header className="w-full lg:h-[79px] mb:h-[70px] tb:h-[70px] tb:px-2 flex items-center mb:px-2 ">
+        <div className="w-full lg:container mx-auto flex justify-between lg:items-center mb:items-center lg:py-4">
           <a href="/">
             <div className="flex items-center  lg:w-[153px] lg:h-[47px]">
               <img className="mb:w-[25px] mb:h-[25px]  "  src={stroke} alt="" />
@@ -31,7 +31,7 @@ function App() {
           </a>
           <div className="flex mb:flex-col mb:justify-between mb:text-center ">
             <a href="/">
-              <p className="font-robotoFlex lg:text-base  lg:mr-[24px] mb:text-sm">
+              <p className="font-robotoFlex lg:text-base  lg:mr-[24px] mb:text-sm tb:mr-[10px]">
                 Galeria zdjęć
               </p>
             </a>
@@ -40,24 +40,24 @@ function App() {
               <p className="font-robotoFlex text-base mb:text-sm">FaQ</p>
             </a>
           </div>
-          <button className="lg:w-[157px] lg:h-[47px] mb:w-[95px] mb:h-[30px]  bg-customBlue rounded-lg">
+          <button className="lg:w-[157px] lg:h-[47px] mb:w-[95px] mb:h-[30px] tb:w-[155px] tb:h-[40px]  bg-customBlue rounded-lg">
             <p className="font-robotoFlex lg:text-base mb:text-xs">Zadzwoń do nas</p>
           </button>
         </div>
       </header>
       <main className="relative custom-bg-cars">
-        <section className="container mx-auto ">
+        <section className="w-full lg:container mx-auto">
           <div className="lg:pt-[120px]  lg:pb-[362px] mb:pt-[30px] mb:pb-[30px]">
-            <div className="container mb-12 mb:px-4">
-              <h2 className=" font-bebasNeue lg:text-[4.77rem] mb:text-[2rem] mb:mb-[8rem]  mb-8 leading-[1.1] tracking-tight">
+            <div className="mb:w-full lg:container mb-12 mb:px-4 tb:pt-4 tb:px-2">
+              <h2 className=" font-bebasNeue lg:text-[4.77rem] mb:text-[2rem] mb:mb-[8rem]  mb-8 leading-[1.1] tracking-tight tb:text-[4rem]   ">
                 Sprzedajemy samochody <br /> z europy
               </h2>
-              <p className=" text-base leading-normal mb:text-center">
+              <p className=" text-base leading-normal mb:text-center tb:pt-[70px]">
                 Kup komfortowy pojazd, aby każda podróż <br /> była wyjątkowym
                 przeżyciem.
               </p>
             </div>
-            <div className="mb:flex mb:justify-center">
+            <div className="mb:flex mb:justify-center tb:px-2 ">
               <button className="w-[157px] h-[47px] bg-customBlue rounded-lg mr-6 mb:w-[95px] mb:h-[30px]">
                 <p className="font-robotoFlex text-base mb:text-xs">Zobacz zdjęcia</p>
               </button>
@@ -67,16 +67,16 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="lg:w-[1264px] mx-auto lg:pt-20 mb:px-4 ">
-          <div className=" mb-6">
-            <h2 className="font-robotoCondensed font-light lg:text-[21.5px] mb:text-[30px] mb:text-center mb:mb-[10px]  text-customBlue ">
+        <section className="lg:w-[1264px] mx-auto lg:pt-20 tb:py-[20px]">
+          <div className=" mb-6 tb:px-2">
+            <h2 className="font-robotoCondensed font-light lg:text-[21.5px] mb:text-[30px] mb:text-center mb:mb-[10px] tb:text-[30px]  text-customBlue ">
               Prezentacja firmy
             </h2>
-            <p className=" font-bebasNeue lg:text-[40px] mb:text-[20px] mb:text-center  leading-tight">
+            <p className=" font-bebasNeue lg:text-[40px] mb:text-[20px] mb:text-center leading-tight tb:text-base">
               Zobacz naszą Galerię zdjęć
             </p>
           </div>
-          <div className="flex mb:text-center mb:mb-[10px]">
+          <div className="flex mb:text-center mb:mb-[10px] mb:px-2 tb:px-2 ">
             <p className=" text-customBlue font-robotoFlex font-semibold text-base mr-12">
               Samochody osobowe
             </p>
@@ -87,7 +87,7 @@ function App() {
           <SimpleSlider />
         </section>
         <section className="bg-customDark text-white border-b-2 border-b-white">
-          <div className="mx-auto container flex mb:flex-col mb:text-center mb:px-4 mb:pt-4">
+          <div className="lg:mx-auto mb:mx-auto tb:flex-col  container flex mb:flex-col mb:text-center tb:px-2 mb:pt-4">
             <div className="lg:mr-12 ">
               <h2 className="font-bebasNeue tracking-tight text-[25px] mb-1">
                 Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit
@@ -156,7 +156,7 @@ function App() {
       </main>
 
       <footer className="bg-customDark ">
-        <div className="container flex justify-between mx-auto lg:py-6 mb:py-4 mb:justify-between mb:px-4">
+        <div className="container flex justify-between mx-auto lg:py-6 mb:py-4 mb:justify-between mb:px-4 tb:justify-around tb:h-[40px] tb:items-center">
           <a href="/">
             <p className=" font-robotoCondensed text-white font-bold">
               Cars Spot
